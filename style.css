@@ -1,0 +1,35 @@
+body {
+  background-color: #1b1c1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image-container {
+  position: relative;
+}
+
+img {
+  margin: 10px;
+  vertical-align: top;
+}
+
+#pause-button {
+  background-color: #ffbb00;
+  color: #fff;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 95px;
+  left: 46.8%;
+  transform: translateX(-50%);
+}
+
+#pause-button:active {
+  background-color: #ff8800;
+}
